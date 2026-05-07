@@ -41,7 +41,7 @@ function Products() {
                 <div key={v.id}>
                   <li>{v.productName}</li>
                   <li>{v.price}₹</li>
-                  <img src={v.p_img} width="10%" />
+                  <img src={v.p_img} width="80%" />
                   <button onClick={() => addToCart(v)}>Add to Cart</button>
                 </div>
               ))
